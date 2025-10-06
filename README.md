@@ -8,14 +8,16 @@ This repository provides compact, practical building blocks for attention‑base
 - `Attention.py` — Core attention module in JAX/Flax (scaled dot‑product attention and multi‑head attention utilities).
 - `Transformer.py` — Minimal Transformer blocks wiring attention, MLP, and residual connections.
 - `flax_attention.ipynb` — A notebook version to experiment with attention interactively (great for step‑by‑step demos or profiling).
-- `losses_vs_epoch.png` — The generated figure (embedded below in this README).
+<!-- - `losses_vs_epoch.png` — The generated figure (embedded below in this README). -->
+- `losses_animation.gif` — The generated figure (embedded below in this README).
 
 
 ## The loss comparison figure
 
 Below is the curated plot synthesizing the loss curves for several model variants as training progresses (x‑axis is step/epoch). A secondary x‑axis at the top shows the raw index for quick cross‑referencing.
 
-![Losses vs Epoch](./losses_vs_epoch.png)
+<!-- ![Losses vs Epoch](./losses_vs_epoch.png) -->
+![Losses vs Epoch](./losses_animation.gif)
 
 What you’re seeing:
 
